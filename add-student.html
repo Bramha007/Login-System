@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Add Student</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<h1>Fill the Form</h1>
+	<form action="AddStudentServlet">
+		<label>
+			<strong>Student ID</strong><br>
+			<input type="text" name="studentId" size="50" class="form-control" pattern="\d+">
+		</label><br>
+		<label>
+			<strong>Student Name</strong><br>
+			<input type="text" name="studentName" size="50" class="form-control">
+		</label><br>
+		<label><strong>Gender</strong><br>
+			<input type="checkbox" name="gender" value="Male">Male<br>
+			<input type="checkbox" name="gender" value="Female">Female
+		</label><br>
+		<label>
+			<strong>Date of Birth</strong><br>
+			<input type="date" name="dob" class="form-control">
+		</label><br>
+		<label>
+			<strong>City</strong><br>
+			<input type="text" name="city" size="50" class="form-control">
+		</label><br>
+		<label>
+			<strong>State</strong><br>
+			<input type="text" name="state" size="50" class="form-control">
+		</label><br>
+		<label>
+			<strong>Email Id</strong><br>
+			<input type="email" name="email" size="50" class="form-control">
+		</label><br>
+		<label>
+			<strong>Qualification</strong><br>
+			<input type="text" name="qualification" size="50" class="form-control">
+		</label><br>
+		<label>
+			<strong>Stream</strong><br>
+			<input type="text" name="stream" size="50" class="form-control">
+		</label><br>
+		<br>
+		<button type="Submit" class="btn btn-primary">submit</button>
+		<a class="btn btn-primary" href="index.html">Home Page</a>
+		
+	</form>
+</body>
+</html>
